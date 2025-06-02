@@ -1,4 +1,17 @@
 {
-  "item.redsys.bismuth": "Bismuth",
-  "itemGroup.redsys": "RedSys"
+  "itemGroup.redsys": "RedSys",
+
+  "item.redsys.copper_dust": "copper_dust",
+  "item.redsys.iron_dust": "iron_dust",
+  "item.redsys.gold_dust": "gold_dust",
+  "item.redsys.quartz_dust": "quartz_dust",
+
+  "item.redsys.copper_redstone_allow": "copper_redstone_allow",
+
+  "item.redsys.silicon_ingot": "silicon_ingot",
+  "item.redsys.copper_redstone_ingot": "copper_redstone_ingot",
+
+  "item.redsys.copper_redstone_plate": "copper_redstone_plate",
+  "item.redsys.copper_redstone_wire": "copper_redstone_wire"
+
 }
