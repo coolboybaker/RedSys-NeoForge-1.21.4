@@ -1,5 +1,4 @@
 {
-  "itemGroup.redsys": "Example Mod Tab",
-  "block.redsys.example_block": "Example Block",
-  "item.redsys.example_item": "Example Item"
+  "item.redsys.bismuth": "Bismuth",
+  "itemGroup.redsys": "RedSys"
 }
