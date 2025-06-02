@@ -34,24 +34,36 @@ public class RedSys  {
     // Create a Tab
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> RED_SYS_TAB = CREATIVE_MODE_TABS.register(
-            "example_tab",
+            "red_sys_tab",
             () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.redsys"))
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.COPPER_DUST.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+                //
                 output.accept(ModItems.COPPER_DUST.get());
                 output.accept(ModItems.QUARTZ_DUST.get());
                 output.accept(ModItems.IRON_DUST.get());
                 output.accept(ModItems.GOLD_DUST.get());
 
-                output.accept(ModItems.COPPER_REDSTONE_ALLOW.get());
+                //
+                output.accept(ModItems.RAW_COPPER_REDSTONE_ALLOW.get());
+                output.accept(ModItems.RAW_IRON_REDSTONE_ALLOW.get());
 
+                //
                 output.accept(ModItems.SILICON_INGOT.get());
-                output.accept(ModItems.COPPER_REDSTONE_INGOT.get());
+                output.accept(ModItems.COPPER_REDSTONE_ALLOW.get());
+                output.accept(ModItems.IRON_REDSTONE_ALLOW.get());
 
+                //
                 output.accept(ModItems.COPPER_REDSTONE_PLATE.get());
                 output.accept(ModItems.COPPER_REDSTONE_WIRE.get());
+                output.accept(ModItems.COPPER_REDSTONE_FOIL.get());
+
+                //
+                output.accept(ModItems.IRON_REDSTONE_PLATE.get());
+                output.accept(ModItems.IRON_REDSTONE_WIRE.get());
+                output.accept(ModItems.IRON_REDSTONE_FOIL.get());
             }).build());
 
 
