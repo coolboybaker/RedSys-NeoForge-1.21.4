@@ -1,7 +1,7 @@
 package com.jabteam.redsys;
 
 // ===== IMPORT =====
-import com.jabteam.redsys.Items.ModItems;
+import com.jabteam.redsys.item.ModItems;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;

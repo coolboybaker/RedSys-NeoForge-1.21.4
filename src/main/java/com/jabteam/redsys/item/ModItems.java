@@ -1,4 +1,4 @@
-package com.jabteam.redsys.Items;
+package com.jabteam.redsys.item;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
