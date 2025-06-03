@@ -1,10 +1,10 @@
 {
   "itemGroup.redsys": "RedSys",
 
-  "item.redsys.copper_dust": "copper_dust",
-  "item.redsys.iron_dust": "iron_dust",
-  "item.redsys.gold_dust": "gold_dust",
-  "item.redsys.quartz_dust": "quartz_dust",
+  "item.redsys.crushed_copper_ore": "Crushed Copper Ore",
+  "item.redsys.crushed_iron_ore": "Crushed Iron Ore",
+  "item.redsys.crushed_gold_ore": "Crushed Gold Ore",
+  "item.redsys.crushed_quartz": "Crushed Quartz",
 
   "item.redsys.quartz_sand_with_coal": "quartz_sand_with_coal",
   "item.redsys.raw_copper_redstone_allow": "raw_copper_redstone_allow",
@@ -12,27 +12,36 @@
   "item.redsys.raw_gold_redstone_allow": "raw_gold_redstone_allow",
 
   "item.redsys.silicon_ingot": "silicon_ingot",
-  "item.redsys.copper_redstone_allow": "copper_redstone_allow",
-  "item.redsys.iron_redstone_allow": "iron_redstone_allow",
-  "item.redsys.gold_redstone_allow": "gold_redstone_allow",
+
+
+  "item.redsys.cuprite_ingot": "Cuprite Ingot",
+  "item.redsys.cuprite_plate": "Cuprite Plate",
+
+
+  "item.redsys.ferrolin_ingot": "Ferrolin Ingot",
+  "item.redsys.ferrolin_plate": "Ferrolin Plate",
+
+
+  "item.redsys.aurium_ingot": "Aurium Ingot",
+  "item.redsys.aurium_plate": "Aurium Plate",
+
+
+
 
   "item.redsys.silicon_plate": "silicon_plate",
   "item.redsys.silicon_rod": "silicon_rod",
 
-  "item.redsys.copper_redstone_plate": "copper_redstone_plate",
   "item.redsys.copper_redstone_wire": "copper_redstone_wire",
   "item.redsys.copper_redstone_foil": "copper_redstone_foil",
   "item.redsys.copper_redstone_rod": "copper_redstone_rod",
 
-  "item.redsys.iron_redstone_plate": "iron_redstone_plate",
   "item.redsys.iron_redstone_wire": "iron_redstone_wire",
   "item.redsys.iron_redstone_foil": "iron_redstone_foil",
   "item.redsys.iron_redstone_rod": "iron_redstone_rod",
 
-  "item.redsys.gold_redstone_plate": "gold_redstone_plate",
   "item.redsys.gold_redstone_wire": "gold_redstone_wire",
   "item.redsys.gold_redstone_foil": "gold_redstone_foil",
   "item.redsys.gold_redstone_rod": "gold_redstone_rod",
 
-  "item.redsys.sticky_paper": "sticky_paper"
+  "item.redsys.sticky_paper": "Sticky Paper"
 }

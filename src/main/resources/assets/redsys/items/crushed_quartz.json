@@ -2,6 +2,6 @@
   "model": {
     "type": "minecraft:model",
 
-    "model": "redsys:item/copper_dust"
+    "model": "redsys:item/crushed_quartz"
   }
 }

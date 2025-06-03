@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "redsys:item/copper_dust"
+    "layer0": "redsys:item/crushed_iron_ore"
   }
 }
