@@ -40,30 +40,50 @@ public class RedSys  {
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.COPPER_DUST.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                //
+                // == Dusts ==
                 output.accept(ModItems.COPPER_DUST.get());
                 output.accept(ModItems.QUARTZ_DUST.get());
                 output.accept(ModItems.IRON_DUST.get());
                 output.accept(ModItems.GOLD_DUST.get());
 
-                //
+                // == Raw resources ==
+                output.accept(ModItems.QUARTZ_SAND_WITH_COAL.get());
                 output.accept(ModItems.RAW_COPPER_REDSTONE_ALLOW.get());
                 output.accept(ModItems.RAW_IRON_REDSTONE_ALLOW.get());
+                output.accept(ModItems.RAW_GOLD_REDSTONE_ALLOW.get());
 
-                //
+                // == Resources ==
                 output.accept(ModItems.SILICON_INGOT.get());
                 output.accept(ModItems.COPPER_REDSTONE_ALLOW.get());
                 output.accept(ModItems.IRON_REDSTONE_ALLOW.get());
+                output.accept(ModItems.GOLD_REDSTONE_ALLOW.get());
 
-                //
+                // == Details ==
+                // Silicon
+                output.accept(ModItems.SILICON_PLATE.get());
+                output.accept(ModItems.SILICON_ROD.get());
+
+                // Copper-redstone
                 output.accept(ModItems.COPPER_REDSTONE_PLATE.get());
                 output.accept(ModItems.COPPER_REDSTONE_WIRE.get());
                 output.accept(ModItems.COPPER_REDSTONE_FOIL.get());
+                output.accept(ModItems.COPPER_REDSTONE_ROD.get());
 
-                //
+                // Iron-redstone
                 output.accept(ModItems.IRON_REDSTONE_PLATE.get());
                 output.accept(ModItems.IRON_REDSTONE_WIRE.get());
                 output.accept(ModItems.IRON_REDSTONE_FOIL.get());
+                output.accept(ModItems.IRON_REDSTONE_ROD.get());
+
+                // Gold-redstone
+                output.accept(ModItems.GOLD_REDSTONE_PLATE.get());
+                output.accept(ModItems.GOLD_REDSTONE_WIRE.get());
+                output.accept(ModItems.GOLD_REDSTONE_FOIL.get());
+                output.accept(ModItems.GOLD_REDSTONE_ROD.get());
+
+
+                // == Other Stuff ==
+                output.accept(ModItems.STICKY_PAPER.get());
             }).build());
 
 

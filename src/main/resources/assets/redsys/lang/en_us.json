@@ -6,18 +6,33 @@
   "item.redsys.gold_dust": "gold_dust",
   "item.redsys.quartz_dust": "quartz_dust",
 
+  "item.redsys.quartz_sand_with_coal": "quartz_sand_with_coal",
   "item.redsys.raw_copper_redstone_allow": "raw_copper_redstone_allow",
   "item.redsys.raw_iron_redstone_allow": "raw_iron_redstone_allow",
+  "item.redsys.raw_gold_redstone_allow": "raw_gold_redstone_allow",
 
   "item.redsys.silicon_ingot": "silicon_ingot",
   "item.redsys.copper_redstone_allow": "copper_redstone_allow",
   "item.redsys.iron_redstone_allow": "iron_redstone_allow",
+  "item.redsys.gold_redstone_allow": "gold_redstone_allow",
+
+  "item.redsys.silicon_plate": "silicon_plate",
+  "item.redsys.silicon_rod": "silicon_rod",
 
   "item.redsys.copper_redstone_plate": "copper_redstone_plate",
   "item.redsys.copper_redstone_wire": "copper_redstone_wire",
   "item.redsys.copper_redstone_foil": "copper_redstone_foil",
+  "item.redsys.copper_redstone_rod": "copper_redstone_rod",
 
   "item.redsys.iron_redstone_plate": "iron_redstone_plate",
   "item.redsys.iron_redstone_wire": "iron_redstone_wire",
-  "item.redsys.iron_redstone_foil": "iron_redstone_foil"
+  "item.redsys.iron_redstone_foil": "iron_redstone_foil",
+  "item.redsys.iron_redstone_rod": "iron_redstone_rod",
+
+  "item.redsys.gold_redstone_plate": "gold_redstone_plate",
+  "item.redsys.gold_redstone_wire": "gold_redstone_wire",
+  "item.redsys.gold_redstone_foil": "gold_redstone_foil",
+  "item.redsys.gold_redstone_rod": "gold_redstone_rod",
+
+  "item.redsys.sticky_paper": "sticky_paper"
 }

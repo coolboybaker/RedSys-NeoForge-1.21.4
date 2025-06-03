@@ -25,25 +25,43 @@ public class ModItems {
     public static final DeferredItem<Item> QUARTZ_DUST = ITEMS.registerItem("quartz_dust", Item::new, new Item.Properties());
 
     // == Raw resources ==
+    public static final DeferredItem<Item> QUARTZ_SAND_WITH_COAL = ITEMS.registerItem("quartz_sand_with_coal", Item::new, new Item.Properties());
     public static final DeferredItem<Item> RAW_COPPER_REDSTONE_ALLOW = ITEMS.registerItem("raw_copper_redstone_allow", Item::new, new Item.Properties());
     public static final DeferredItem<Item> RAW_IRON_REDSTONE_ALLOW = ITEMS.registerItem("raw_iron_redstone_allow", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> RAW_GOLD_REDSTONE_ALLOW = ITEMS.registerItem("raw_gold_redstone_allow", Item::new, new Item.Properties());
 
     // == Resources ==
     public static final DeferredItem<Item> SILICON_INGOT = ITEMS.registerItem("silicon_ingot", Item::new, new Item.Properties());
     public static final DeferredItem<Item> COPPER_REDSTONE_ALLOW = ITEMS.registerItem("copper_redstone_allow", Item::new, new Item.Properties());
     public static final DeferredItem<Item> IRON_REDSTONE_ALLOW = ITEMS.registerItem("iron_redstone_allow", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> GOLD_REDSTONE_ALLOW = ITEMS.registerItem("gold_redstone_allow", Item::new, new Item.Properties());
 
 
     // == Details ==
+    // Silicon
+    public static final DeferredItem<Item> SILICON_PLATE = ITEMS.registerItem("silicon_plate", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> SILICON_ROD = ITEMS.registerItem("silicon_rod", Item::new, new Item.Properties());
+
     // Copper-redstone
     public static final DeferredItem<Item> COPPER_REDSTONE_PLATE = ITEMS.registerItem("copper_redstone_plate", Item::new, new Item.Properties());
     public static final DeferredItem<Item> COPPER_REDSTONE_WIRE = ITEMS.registerItem("copper_redstone_wire", Item::new, new Item.Properties());
     public static final DeferredItem<Item> COPPER_REDSTONE_FOIL = ITEMS.registerItem("copper_redstone_foil", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> COPPER_REDSTONE_ROD = ITEMS.registerItem("copper_redstone_rod", Item::new, new Item.Properties());
 
     // Iron-redstone
     public static final DeferredItem<Item> IRON_REDSTONE_PLATE = ITEMS.registerItem("iron_redstone_plate", Item::new, new Item.Properties());
     public static final DeferredItem<Item> IRON_REDSTONE_WIRE = ITEMS.registerItem("iron_redstone_wire", Item::new, new Item.Properties());
     public static final DeferredItem<Item> IRON_REDSTONE_FOIL = ITEMS.registerItem("iron_redstone_foil", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> IRON_REDSTONE_ROD = ITEMS.registerItem("iron_redstone_rod", Item::new, new Item.Properties());
+
+    // Gold-redstone
+    public static final DeferredItem<Item> GOLD_REDSTONE_PLATE = ITEMS.registerItem("gold_redstone_plate", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> GOLD_REDSTONE_WIRE = ITEMS.registerItem("gold_redstone_wire", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> GOLD_REDSTONE_FOIL = ITEMS.registerItem("gold_redstone_foil", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> GOLD_REDSTONE_ROD = ITEMS.registerItem("gold_redstone_rod", Item::new, new Item.Properties());
+
+    // == Other Stuff ==
+    public static final DeferredItem<Item> STICKY_PAPER = ITEMS.registerItem("sticky_paper", Item::new, new Item.Properties());
 
 
 
