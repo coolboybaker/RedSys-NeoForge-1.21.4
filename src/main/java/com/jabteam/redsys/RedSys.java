@@ -48,7 +48,7 @@ public class RedSys  {
 
 
                 // == Raw resources ==
-                output.accept(ModItems.QUARTZ_SAND_WITH_COAL.get());
+                output.accept(ModItems.QUARTZ_COAL_SAND.get());
                 output.accept(ModItems.RAW_COPPER_REDSTONE_ALLOW.get());
                 output.accept(ModItems.RAW_IRON_REDSTONE_ALLOW.get());
                 output.accept(ModItems.RAW_GOLD_REDSTONE_ALLOW.get());

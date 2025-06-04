@@ -25,7 +25,7 @@ public class ModItems {
     public static final DeferredItem<Item> CRUSHED_QUARTZ = ITEMS.registerItem("crushed_quartz", Item::new, new Item.Properties());
 
     // == Raw resources ==
-    public static final DeferredItem<Item> QUARTZ_SAND_WITH_COAL = ITEMS.registerItem("quartz_sand_with_coal", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> QUARTZ_COAL_SAND = ITEMS.registerItem("quartz_coal_sand", Item::new, new Item.Properties());
     public static final DeferredItem<Item> RAW_COPPER_REDSTONE_ALLOW = ITEMS.registerItem("raw_copper_redstone_allow", Item::new, new Item.Properties());
     public static final DeferredItem<Item> RAW_IRON_REDSTONE_ALLOW = ITEMS.registerItem("raw_iron_redstone_allow", Item::new, new Item.Properties());
     public static final DeferredItem<Item> RAW_GOLD_REDSTONE_ALLOW = ITEMS.registerItem("raw_gold_redstone_allow", Item::new, new Item.Properties());
