@@ -1,6 +1,7 @@
 package com.jabteam.redsys;
 
 // ===== IMPORT =====
+import com.jabteam.redsys.block.ModBlocks;
 import com.jabteam.redsys.item.ModItems;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
@@ -40,6 +41,8 @@ public class RedSys  {
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.CRUSHED_COPPER_ORE.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+
+                // ==== ITEMS ====
                 // == Crushed ==
                 output.accept(ModItems.CRUSHED_COPPER_ORE.get());
                 output.accept(ModItems.CRUSHED_IRON_ORE.get());
@@ -79,6 +82,10 @@ public class RedSys  {
 
                 // == Other Stuff ==
                 output.accept(ModItems.STICKY_PAPER.get());
+
+
+                // ==== Blocks ====
+                output.accept((ModBlocks.CUPRITE_BLOCK.get()));
             }).build());
 
 
@@ -88,6 +95,7 @@ public class RedSys  {
         // Register (content)
         CREATIVE_MODE_TABS.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register (mod)
         NeoForge.EVENT_BUS.register(this);
