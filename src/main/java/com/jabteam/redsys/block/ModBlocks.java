@@ -23,8 +23,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(RedSys.MOD_ID);
 
     // ==== Blocks =====
-    public static final DeferredBlock<Block> CUPRITE_BLOCK = BLOCKS.registerSimpleBlock("cuprite_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
+    public static final DeferredBlock<Block> CUPRITE_BLOCK = BLOCKS.registerSimpleBlock("cuprite_block", BlockBehaviour.Properties.of());
     public static final DeferredItem<BlockItem> CUPRITE_BLOCK_ITEM = ModItems.ITEMS.registerSimpleBlockItem("cuprite_block_item", CUPRITE_BLOCK);
+
 
 
     // == Block-Registers ==
