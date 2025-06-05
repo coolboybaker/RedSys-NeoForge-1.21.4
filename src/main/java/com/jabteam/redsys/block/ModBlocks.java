@@ -23,14 +23,24 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(RedSys.MOD_ID);
 
     // ==== Blocks =====
-    public static final DeferredBlock<Block> CUPRITE_BLOCK = BLOCKS.registerSimpleBlock("cuprite_block", BlockBehaviour.Properties.of());
-    public static final DeferredItem<BlockItem> CUPRITE_BLOCK_ITEM = ModItems.ITEMS.registerSimpleBlockItem("cuprite_block_item", CUPRITE_BLOCK);
+    // == Resource Blocks ==
+    public static final DeferredBlock<Block> SILICON_BLOCK = registerBlock("silicon_block", BlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> CUPRITE_BLOCK = registerBlock("cuprite_block", BlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> FERROLIN_BLOCK = registerBlock("ferrolin_block", BlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> AURIUM_BLOCK = registerBlock("aurium_block", BlockBehaviour.Properties.of());
+
+    // == Tables ==
+    public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerBlock("industrial_craft_table", BlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> SOLDERING_TABLE = registerBlock("soldering_table", BlockBehaviour.Properties.of());
+
 
 
 
     // == Block-Registers ==
-    private static void registerBlock(String Name, DeferredBlock<Block> a) {
-
+    private static DeferredBlock<Block> registerBlock(String name, BlockBehaviour.Properties blockProperties) {
+        DeferredBlock<Block> currentBlock = BLOCKS.registerSimpleBlock(name, blockProperties);
+        DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.registerSimpleBlockItem(name + "_item", currentBlock);
+        return currentBlock;
     }
 
 

@@ -52,40 +52,41 @@ public class RedSys  {
 
                 // == Raw resources ==
                 output.accept(ModItems.QUARTZ_COAL_SAND.get());
-                output.accept(ModItems.RAW_COPPER_REDSTONE_ALLOW.get());
-                output.accept(ModItems.RAW_IRON_REDSTONE_ALLOW.get());
-                output.accept(ModItems.RAW_GOLD_REDSTONE_ALLOW.get());
+                output.accept(ModItems.COPPER_REDSTONE_DUST.get());
+                output.accept(ModItems.IRON_REDSTONE_DUST.get());
+                output.accept(ModItems.GOLD_REDSTONE_DUST.get());
 
                 // == Resources ==
                 // Silicon
+                output.accept((ModBlocks.SILICON_BLOCK.get()));
                 output.accept(ModItems.SILICON_INGOT.get());
                 output.accept(ModItems.SILICON_PLATE.get());
                 output.accept(ModItems.SILICON_ROD.get());
                 // Cuprite
+                output.accept((ModBlocks.CUPRITE_BLOCK.get()));
                 output.accept(ModItems.CUPRITE_INGOT.get());
-                output.accept(ModItems.CUPRITE_PLATE.get());
-                output.accept(ModItems.COPPER_REDSTONE_WIRE.get());
-                output.accept(ModItems.COPPER_REDSTONE_FOIL.get());
                 output.accept(ModItems.COPPER_REDSTONE_ROD.get());
+                output.accept(ModItems.CUPRITE_PLATE.get());
+                output.accept(ModItems.CUPRITE_FOIL.get());
+                output.accept(ModItems.COPPER_REDSTONE_WIRE.get());
                 // Ferrolin
+                output.accept((ModBlocks.FERROLIN_BLOCK.get()));
                 output.accept(ModItems.FERROLIN_INGOT.get());
-                output.accept(ModItems.FERROLIN_PLATE.get());
-                output.accept(ModItems.IRON_REDSTONE_WIRE.get());
-                output.accept(ModItems.IRON_REDSTONE_FOIL.get());
                 output.accept(ModItems.IRON_REDSTONE_ROD.get());
+                output.accept(ModItems.FERROLIN_PLATE.get());
+                output.accept(ModItems.FERROLIN_FOIL.get());
+                output.accept(ModItems.IRON_REDSTONE_WIRE.get());
                 // Aurium
+                output.accept((ModBlocks.AURIUM_BLOCK.get()));
                 output.accept(ModItems.AURIUM_INGOT.get());
-                output.accept(ModItems.AURIUM_PLATE.get());
-                output.accept(ModItems.GOLD_REDSTONE_WIRE.get());
-                output.accept(ModItems.GOLD_REDSTONE_FOIL.get());
                 output.accept(ModItems.GOLD_REDSTONE_ROD.get());
+                output.accept(ModItems.AURIUM_PLATE.get());
+                output.accept(ModItems.AURIUM_FOIL.get());
+                output.accept(ModItems.GOLD_REDSTONE_WIRE.get());
 
                 // == Other Stuff ==
                 output.accept(ModItems.STICKY_PAPER.get());
 
-
-                // ==== Blocks ====
-                output.accept((ModBlocks.CUPRITE_BLOCK.get()));
             }).build());
 
 
