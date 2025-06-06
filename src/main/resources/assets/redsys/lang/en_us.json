@@ -13,34 +13,35 @@
 
 
 
+  "item.redsys.silicon_ingot": "Silicon Ingot",
+  "item.redsys.silicon_rod": "Silicon Rod",
+  "item.redsys.silicon_plate": "Silicon Plate",
+
   "item.redsys.cuprite_ingot": "Cuprite Ingot",
+  "item.redsys.cuprite_rod": "Cuprite Rod",
   "item.redsys.cuprite_plate": "Cuprite Plate",
+  "item.redsys.cuprite_foil": "Cuprite Foil",
 
   "item.redsys.ferrolin_ingot": "Ferrolin Ingot",
+  "item.redsys.ferrolin_rod": "Ferrolin Rod",
   "item.redsys.ferrolin_plate": "Ferrolin Plate",
+  "item.redsys.ferrolin_foil": "Ferrolin Foil",
 
   "item.redsys.aurium_ingot": "Aurium Ingot",
+  "item.redsys.aurium_rod": "Aurium Rod",
   "item.redsys.aurium_plate": "Aurium Plate",
-  "item.redsys.silicon_ingot": "silicon_ingot",
+  "item.redsys.aurium_foil": "Aurium Foil",
 
 
 
 
 
-  "item.redsys.silicon_plate": "silicon_plate",
-  "item.redsys.silicon_rod": "silicon_rod",
 
   "item.redsys.copper_redstone_wire": "copper_redstone_wire",
-  "item.redsys.copper_redstone_foil": "copper_redstone_foil",
-  "item.redsys.copper_redstone_rod": "copper_redstone_rod",
 
   "item.redsys.iron_redstone_wire": "iron_redstone_wire",
-  "item.redsys.iron_redstone_foil": "iron_redstone_foil",
-  "item.redsys.iron_redstone_rod": "iron_redstone_rod",
 
   "item.redsys.gold_redstone_wire": "gold_redstone_wire",
-  "item.redsys.gold_redstone_foil": "gold_redstone_foil",
-  "item.redsys.gold_redstone_rod": "gold_redstone_rod",
 
   "item.redsys.sticky_paper": "Sticky Paper"
 }
