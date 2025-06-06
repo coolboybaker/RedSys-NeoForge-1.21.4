@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "redsys:block/aurium_block" }
+  }
+}

@@ -12,21 +12,28 @@
   "item.redsys.gold_redstone_dust": "Gold-Redstone Dust",
 
 
-
+  "item.redsys.silicon_block": "Silicon Block",
+  "item.redsys.silicon_block_item": "Silicon Block",
   "item.redsys.silicon_ingot": "Silicon Ingot",
   "item.redsys.silicon_rod": "Silicon Rod",
   "item.redsys.silicon_plate": "Silicon Plate",
 
+  "item.redsys.cuprite_block": "Cuprite Block",
+  "item.redsys.cuprite_block_item": "Cuprite Block",
   "item.redsys.cuprite_ingot": "Cuprite Ingot",
   "item.redsys.cuprite_rod": "Cuprite Rod",
   "item.redsys.cuprite_plate": "Cuprite Plate",
   "item.redsys.cuprite_foil": "Cuprite Foil",
 
+  "item.redsys.ferrolin_block": "Ferrolin Block",
+  "item.redsys.ferrolin_block_item": "Ferrolin Block",
   "item.redsys.ferrolin_ingot": "Ferrolin Ingot",
   "item.redsys.ferrolin_rod": "Ferrolin Rod",
   "item.redsys.ferrolin_plate": "Ferrolin Plate",
   "item.redsys.ferrolin_foil": "Ferrolin Foil",
 
+  "item.redsys.aurium_block": "Aurium Block",
+  "item.redsys.aurium_block_item": "Aurium Block",
   "item.redsys.aurium_ingot": "Aurium Ingot",
   "item.redsys.aurium_rod": "Aurium Rod",
   "item.redsys.aurium_plate": "Aurium Plate",
