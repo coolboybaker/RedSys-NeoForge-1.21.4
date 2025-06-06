@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:redstone",
+    "redsys:crushed_iron_ore",
+    "redsys:crushed_iron_ore",
+    "redsys:crushed_iron_ore"
+  ],
+  "result": {
+    "count": 4,
+    "id": "redsys:iron_redstone_dust"
+  }
+}
+

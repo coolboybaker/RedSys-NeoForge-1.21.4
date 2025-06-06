@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:coal",
+    "redsys:crushed_quartz",
+    "redsys:crushed_quartz",
+    "redsys:crushed_quartz"
+  ],
+  "result": {
+    "count": 4,
+    "id": "redsys:quartz_coal_sand"
+  }
+}
+

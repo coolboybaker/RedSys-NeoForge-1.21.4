@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:redstone",
+    "redsys:crushed_gold_ore",
+    "redsys:crushed_gold_ore",
+    "redsys:crushed_gold_ore"
+  ],
+  "result": {
+    "count": 4,
+    "id": "redsys:gold_redstone_dust"
+  }
+}
+
