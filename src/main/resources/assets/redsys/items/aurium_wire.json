@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+
+    "model": "redsys:item/aurium_wire"
+  }
+}

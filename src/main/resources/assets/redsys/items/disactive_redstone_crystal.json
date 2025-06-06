@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+
+    "model": "redsys:item/disactive_redstone_crystal"
+  }
+}

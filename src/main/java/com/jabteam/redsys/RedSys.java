@@ -67,21 +67,25 @@ public class RedSys  {
                 output.accept(ModItems.CUPRITE_ROD.get());
                 output.accept(ModItems.CUPRITE_PLATE.get());
                 output.accept(ModItems.CUPRITE_FOIL.get());
-                output.accept(ModItems.COPPER_REDSTONE_WIRE.get());
+                output.accept(ModItems.CUPRITE_WIRE.get());
                 // Ferrolin
                 output.accept((ModBlocks.FERROLIN_BLOCK.get()));
                 output.accept(ModItems.FERROLIN_INGOT.get());
                 output.accept(ModItems.FERROLIN_ROD.get());
                 output.accept(ModItems.FERROLIN_PLATE.get());
                 output.accept(ModItems.FERROLIN_FOIL.get());
-                output.accept(ModItems.IRON_REDSTONE_WIRE.get());
+                output.accept(ModItems.FERROLIN_WIRE.get());
                 // Aurium
                 output.accept((ModBlocks.AURIUM_BLOCK.get()));
                 output.accept(ModItems.AURIUM_INGOT.get());
                 output.accept(ModItems.AURIUM_ROD.get());
                 output.accept(ModItems.AURIUM_PLATE.get());
                 output.accept(ModItems.AURIUM_FOIL.get());
-                output.accept(ModItems.GOLD_REDSTONE_WIRE.get());
+                output.accept(ModItems.AURIUM_WIRE.get());
+
+                // Redstone Crystals
+                output.accept(ModItems.ACTIVE_REDSTONE_CRYSTAL.get());
+                output.accept(ModItems.DISACTIVE_REDSTONE_CRYSTAL.get());
 
                 // == Tools ==
                 output.accept(ModItems.HAMMER.get());

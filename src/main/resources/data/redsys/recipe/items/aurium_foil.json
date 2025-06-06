@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "redsys:aurium_plate",
+    "redsys:hammer"
+  ],
+  "result": {
+    "count": 4,
+    "id": "redsys:aurium_foil"
+  }
+}

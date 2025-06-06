@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "redsys:ferrolin_plate",
+    "redsys:pliers"
+  ],
+  "result": {
+    "count": 4,
+    "id": "redsys:ferrolin_wire"
+  }
+}

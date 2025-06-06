@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "redsys:crushed_quartz",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "count": 4,
+    "id": "redsys:active_redstone_crystal"
+  }
+}
