@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "redsys:block/cuprite_block"
+    "all": "redsys:block/ferrolin_block"
   }
 }

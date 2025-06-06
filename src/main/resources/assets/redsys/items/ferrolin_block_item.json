@@ -2,6 +2,6 @@
   "model": {
     "type": "minecraft:model",
 
-    "model": "redsys:block/cuprite_block"
+    "model": "redsys:block/ferrolin_block"
   }
 }
