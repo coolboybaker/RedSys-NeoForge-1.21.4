@@ -90,6 +90,7 @@ public class RedSys  {
 
                 // == Other Stuff ==
                 output.accept(ModItems.STICKY_PAPER.get());
+                output.accept(ModItems.RIGID_PAPER.get());
 
             }).build());
 

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    "redsys:sticky_paper"
+  ],
+  "result": {
+    "id": "redsys:rigid_paper"
+  },
+  "experience": 0.05,
+  "cookingtime": 50
+}

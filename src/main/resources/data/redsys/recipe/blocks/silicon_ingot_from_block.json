@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "redsys:silicon_block_item"
+  ],
+  "result": {
+    "count": 9,
+    "id": "redsys:silicon_ingot"
+  }
+}
+

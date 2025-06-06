@@ -72,6 +72,7 @@ public class ModItems {
 
     // == Other Stuff ==
     public static final DeferredItem<Item> STICKY_PAPER = ITEMS.registerItem("sticky_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> RIGID_PAPER = ITEMS.registerItem("rigid_paper", Item::new, new Item.Properties());
 
 
 
