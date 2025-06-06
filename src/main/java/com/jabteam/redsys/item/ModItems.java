@@ -2,6 +2,7 @@ package com.jabteam.redsys.item;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
+import com.jabteam.redsys.item.behaviours.ToolBehaviour;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -52,6 +53,9 @@ public class ModItems {
     public static final DeferredItem<Item> AURIUM_FOIL = ITEMS.registerItem("aurium_foil", Item::new, new Item.Properties());
 
 
+    // == Tools ==
+    public static final DeferredItem<ToolBehaviour> HAMMER = ITEMS.registerItem("hammer", ToolBehaviour::new, new Item.Properties());
+    public static final DeferredItem<ToolBehaviour> PLIERS = ITEMS.registerItem("pliers", ToolBehaviour::new, new Item.Properties());
 
 
     // == Details ==
@@ -79,3 +83,7 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 }
+
+
+
+

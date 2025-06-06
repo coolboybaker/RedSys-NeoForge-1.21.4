@@ -4,7 +4,8 @@
     "minecraft:coal",
     "redsys:crushed_quartz",
     "redsys:crushed_quartz",
-    "redsys:crushed_quartz"
+    "redsys:crushed_quartz",
+    "redsys:hammer"
   ],
   "result": {
     "count": 4,

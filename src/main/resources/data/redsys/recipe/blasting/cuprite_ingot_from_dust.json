@@ -1,8 +1,8 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "redsys:copper_redstone_dust"
-  },
+  "ingredient": [
+    "redsys:copper_redstone_dust"
+  ],
   "result": {
     "id": "redsys:cuprite_ingot"
   },

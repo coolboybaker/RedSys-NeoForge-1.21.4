@@ -4,7 +4,8 @@
     "minecraft:redstone",
     "redsys:crushed_gold_ore",
     "redsys:crushed_gold_ore",
-    "redsys:crushed_gold_ore"
+    "redsys:crushed_gold_ore",
+    "redsys:hammer"
   ],
   "result": {
     "count": 4,

@@ -3,15 +3,15 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:stick",
-    "X": "minecraft:stone"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    " XX",
+    " #X",
+    "#  "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:iron_pickaxe"
+    "id": "redsys:hammer"
   }
 }

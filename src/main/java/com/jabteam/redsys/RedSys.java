@@ -83,6 +83,11 @@ public class RedSys  {
                 output.accept(ModItems.AURIUM_FOIL.get());
                 output.accept(ModItems.GOLD_REDSTONE_WIRE.get());
 
+                // == Tools ==
+                output.accept(ModItems.HAMMER.get());
+                output.accept(ModItems.PLIERS.get());
+
+
                 // == Other Stuff ==
                 output.accept(ModItems.STICKY_PAPER.get());
 

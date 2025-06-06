@@ -1,10 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "minecraft:quartz"
+    "minecraft:raw_copper",
+    "redsys:hammer"
   ],
   "result": {
     "count": 3,
-    "id": "redsys:crushed_quartz"
+    "id": "redsys:crushed_copper_ore"
   }
 }

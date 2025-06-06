@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    "redsys:quartz_coal_sand"
+  ],
+  "result": {
+    "id": "redsys:silicon_ingot"
+  },
+  "experience": 1,
+  "cookingtime": 150
+}

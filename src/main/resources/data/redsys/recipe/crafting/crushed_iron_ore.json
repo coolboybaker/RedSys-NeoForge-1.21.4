@@ -1,7 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "minecraft:raw_iron"
+    "minecraft:raw_iron",
+    "redsys:hammer"
   ],
   "result": {
     "count": 3,
