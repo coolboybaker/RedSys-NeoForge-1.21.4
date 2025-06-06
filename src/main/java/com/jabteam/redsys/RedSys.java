@@ -44,11 +44,10 @@ public class RedSys  {
 
                 // ==== ITEMS ====
                 // == Crushed ==
+                output.accept(ModItems.CRUSHED_QUARTZ.get());
                 output.accept(ModItems.CRUSHED_COPPER_ORE.get());
                 output.accept(ModItems.CRUSHED_IRON_ORE.get());
                 output.accept(ModItems.CRUSHED_GOLD_ORE.get());
-                output.accept(ModItems.CRUSHED_QUARTZ.get());
-
 
                 // == Raw resources ==
                 output.accept(ModItems.QUARTZ_COAL_SAND.get());
