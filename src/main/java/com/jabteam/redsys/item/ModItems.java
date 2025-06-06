@@ -33,6 +33,8 @@ public class ModItems {
     // == Resources ==
     // Silicon
     public static final DeferredItem<Item> SILICON_INGOT = ITEMS.registerItem("silicon_ingot", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> SILICON_PLATE = ITEMS.registerItem("silicon_plate", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> SILICON_ROD = ITEMS.registerItem("silicon_rod", Item::new, new Item.Properties());
     // Cuprite
     public static final DeferredItem<Item> CUPRITE_INGOT = ITEMS.registerItem("cuprite_ingot", Item::new, new Item.Properties());
     public static final DeferredItem<Item> CUPRITE_ROD = ITEMS.registerItem("cuprite_rod", Item::new, new Item.Properties());
@@ -54,8 +56,6 @@ public class ModItems {
 
     // == Details ==
     // Silicon
-    public static final DeferredItem<Item> SILICON_PLATE = ITEMS.registerItem("silicon_plate", Item::new, new Item.Properties());
-    public static final DeferredItem<Item> SILICON_ROD = ITEMS.registerItem("silicon_rod", Item::new, new Item.Properties());
 
     // Copper-redstone
     public static final DeferredItem<Item> COPPER_REDSTONE_WIRE = ITEMS.registerItem("copper_redstone_wire", Item::new, new Item.Properties());
