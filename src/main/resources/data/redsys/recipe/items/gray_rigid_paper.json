@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "input": "#redsys:rigid_paper",
+  "material": "minecraft:gray_dye",
+  "result": "redsys:gray_rigid_paper"
+}
