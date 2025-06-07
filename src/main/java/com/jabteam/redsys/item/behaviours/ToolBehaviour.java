@@ -1,16 +1,15 @@
 package com.jabteam.redsys.item.behaviours;
-
-import net.minecraft.world.InteractionResult;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.context.UseOnContext;
+
+
+
 
 
 public class ToolBehaviour extends Item {
     public ToolBehaviour(Properties properties) {
         super(properties.durability(150));
     }
-
 
     @Override
     public ItemStack getCraftingRemainder(ItemStack itemStack) {

@@ -2,6 +2,7 @@ package com.jabteam.redsys.item;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
+import com.jabteam.redsys.item.behaviours.SchemeBehaviour;
 import com.jabteam.redsys.item.behaviours.ToolBehaviour;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -64,6 +65,15 @@ public class ModItems {
     // == Tools ==
     public static final DeferredItem<ToolBehaviour> HAMMER = ITEMS.registerItem("hammer", ToolBehaviour::new, new Item.Properties());
     public static final DeferredItem<ToolBehaviour> PLIERS = ITEMS.registerItem("pliers", ToolBehaviour::new, new Item.Properties());
+
+
+    // ==== Schemes ====
+    // == Empty ==
+    public static final DeferredItem<SchemeBehaviour> WHITE_EMPTY_SCHEME = ITEMS.registerItem("white_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    // == Simple ==
+    public static final DeferredItem<SchemeBehaviour> WHITE_SIMPLE_SCHEME = ITEMS.registerItem("white_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    // == Advances ==
+    public static final DeferredItem<SchemeBehaviour> WHITE_ADVANCED_SCHEME = ITEMS.registerItem("white_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
 
 
 
