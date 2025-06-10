@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "redsys:silicon_block",
+    "redsys:cuprite_block",
+    "redsys:ferrolin_block",
+    "redsys:aurium_block"
+  ]
+}

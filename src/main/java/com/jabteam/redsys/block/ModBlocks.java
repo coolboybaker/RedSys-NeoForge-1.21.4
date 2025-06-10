@@ -2,10 +2,12 @@ package com.jabteam.redsys.block;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
+import com.jabteam.redsys.block.behaviours.PossiblePoweredBlock;
 import com.jabteam.redsys.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
@@ -24,15 +26,30 @@ public class ModBlocks {
 
     // ==== Blocks =====
     // == Resource Blocks ==
-    public static final DeferredBlock<Block> SILICON_BLOCK = registerBlock("silicon_block", BlockBehaviour.Properties.of());
-    public static final DeferredBlock<Block> CUPRITE_BLOCK = registerBlock("cuprite_block", BlockBehaviour.Properties.of());
-    public static final DeferredBlock<Block> FERROLIN_BLOCK = registerBlock("ferrolin_block", BlockBehaviour.Properties.of());
-    public static final DeferredBlock<Block> AURIUM_BLOCK = registerBlock("aurium_block", BlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> SILICON_BLOCK = registerBlock("silicon_block", BlockBehaviour.Properties.of()
+            .strength(7.0f, 8.0f)
+            .sound(SoundType.BONE_BLOCK)
+            .requiresCorrectToolForDrops()
+    );
+    public static final DeferredBlock<Block> CUPRITE_BLOCK = registerBlock("cuprite_block", PossiblePoweredBlock.Properties.of()
+            .strength(5.0f, 6.0f)
+            .sound(SoundType.METAL)
+            .requiresCorrectToolForDrops()
+    );
+    public static final DeferredBlock<Block> FERROLIN_BLOCK = registerBlock("ferrolin_block", PossiblePoweredBlock.Properties.of()
+            .strength(5.0f, 6.0f)
+            .sound(SoundType.METAL)
+            .requiresCorrectToolForDrops()
+    );
+    public static final DeferredBlock<Block> AURIUM_BLOCK = registerBlock("aurium_block", PossiblePoweredBlock.Properties.of()
+            .strength(5.0f, 6.0f)
+            .sound(SoundType.METAL)
+            .requiresCorrectToolForDrops()
+    );
 
     // == Tables ==
     public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerBlock("industrial_craft_table", BlockBehaviour.Properties.of());
     public static final DeferredBlock<Block> SOLDERING_TABLE = registerBlock("soldering_table", BlockBehaviour.Properties.of());
-
 
 
 
@@ -42,6 +59,7 @@ public class ModBlocks {
         DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.registerSimpleBlockItem(name + "_item", currentBlock);
         return currentBlock;
     }
+
 
 
     // ==== REGISTER ====
