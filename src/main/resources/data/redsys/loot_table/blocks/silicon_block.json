@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "redsys:cuprite_block_item"
+          "name": "redsys:silicon_block_item"
         }
       ]
     }

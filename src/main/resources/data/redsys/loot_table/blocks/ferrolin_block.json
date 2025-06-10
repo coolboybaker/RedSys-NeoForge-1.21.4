@@ -5,13 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "redsys:ferrolin_block_item",
-          "name": "redsys:ferrolin_block"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
+          "type": "minecraft:item",
+          "name": "redsys:ferrolin_block_item"
         }
       ]
     }
