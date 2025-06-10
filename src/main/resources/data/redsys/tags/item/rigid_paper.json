@@ -1,0 +1,14 @@
+
+{
+  "values": [
+    {
+      "id": "redsys:white_rigid_paper",
+      "required": false
+    },
+    {
+      "id": "redsys:gray_rigid_paper",
+      "required": false
+    }
+
+  ]
+}
