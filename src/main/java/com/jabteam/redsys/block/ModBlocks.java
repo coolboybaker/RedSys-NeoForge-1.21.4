@@ -25,6 +25,12 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(RedSys.MOD_ID);
 
     // ==== Blocks =====
+    // == Dusts ==
+    public static final DeferredBlock<Block> CUPRITE_DUST = registerBlock("cuprite_dust", PossiblePoweredBlock.Properties.of()
+            .strength(5.0f, 6.0f)
+            .sound(SoundType.METAL)
+            .requiresCorrectToolForDrops()
+    );
     // == Resource Blocks ==
     public static final DeferredBlock<Block> SILICON_BLOCK = registerBlock("silicon_block", BlockBehaviour.Properties.of()
             .strength(7.0f, 8.0f)

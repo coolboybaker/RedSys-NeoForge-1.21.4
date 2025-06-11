@@ -80,7 +80,22 @@ public class ModItems {
     // == Other Stuff ==
     public static final DeferredItem<Item> STICKY_PAPER = ITEMS.registerItem("sticky_paper", Item::new, new Item.Properties());
     public static final DeferredItem<Item> WHITE_RIGID_PAPER = ITEMS.registerItem("white_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> ORANGE_RIGID_PAPER = ITEMS.registerItem("orange_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> MAGENTA_RIGID_PAPER = ITEMS.registerItem("magenta_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> LIGHT_BLUE_RIGID_PAPER = ITEMS.registerItem("light_blue_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> YELLOW_RIGID_PAPER = ITEMS.registerItem("yellow_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> LIME_RIGID_PAPER = ITEMS.registerItem("lime_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> PINK_RIGID_PAPER = ITEMS.registerItem("pink_rigid_paper", Item::new, new Item.Properties());
     public static final DeferredItem<Item> GRAY_RIGID_PAPER = ITEMS.registerItem("gray_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> LIGHT_GRAY_RIGID_PAPER = ITEMS.registerItem("light_gray_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> CYAN_RIGID_PAPER = ITEMS.registerItem("cyan_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> PURPLE_RIGID_PAPER = ITEMS.registerItem("purple_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> BLUE_RIGID_PAPER = ITEMS.registerItem("blue_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> BROWN_RIGID_PAPER = ITEMS.registerItem("brown_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> GREEN_RIGID_PAPER = ITEMS.registerItem("green_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> RED_RIGID_PAPER = ITEMS.registerItem("red_rigid_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> BLACK_RIGID_PAPER = ITEMS.registerItem("black_rigid_paper", Item::new, new Item.Properties());
+
 
 
 

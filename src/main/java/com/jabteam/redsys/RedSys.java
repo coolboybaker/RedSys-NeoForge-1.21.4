@@ -94,7 +94,24 @@ public class RedSys  {
 
                 // == Other Stuff ==
                 output.accept(ModItems.STICKY_PAPER.get());
+
+                // == Rigid paper ==
                 output.accept(ModItems.WHITE_RIGID_PAPER.get());
+                output.accept(ModItems.ORANGE_RIGID_PAPER.get());
+                output.accept(ModItems.MAGENTA_RIGID_PAPER.get());
+                output.accept(ModItems.LIGHT_BLUE_RIGID_PAPER.get());
+                output.accept(ModItems.YELLOW_RIGID_PAPER.get());
+                output.accept(ModItems.LIME_RIGID_PAPER.get());
+                output.accept(ModItems.PINK_RIGID_PAPER.get());
+                output.accept(ModItems.GRAY_RIGID_PAPER.get());
+                output.accept(ModItems.LIGHT_GRAY_RIGID_PAPER.get());
+                output.accept(ModItems.CYAN_RIGID_PAPER.get());
+                output.accept(ModItems.PURPLE_RIGID_PAPER.get());
+                output.accept(ModItems.BLUE_RIGID_PAPER.get());
+                output.accept(ModItems.BROWN_RIGID_PAPER.get());
+                output.accept(ModItems.GREEN_RIGID_PAPER.get());
+                output.accept(ModItems.RED_RIGID_PAPER.get());
+                output.accept(ModItems.BLACK_RIGID_PAPER.get());
 
             }).build());
 

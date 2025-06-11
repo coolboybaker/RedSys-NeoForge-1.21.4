@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "rigid_paper_dye",
+  "input": "#redsys:rigid_paper",
+  "material": "minecraft:purple_dye",
+  "result": "redsys:purple_rigid_paper"
+}

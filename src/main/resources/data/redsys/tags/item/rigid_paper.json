@@ -1,14 +1,21 @@
 
 {
   "values": [
-    {
-      "id": "redsys:white_rigid_paper",
-      "required": false
-    },
-    {
-      "id": "redsys:gray_rigid_paper",
-      "required": false
-    }
-
+    "redsys:white_rigid_paper",
+    "redsys:orange_rigid_paper",
+    "redsys:magenta_rigid_paper",
+    "redsys:light_blue_rigid_paper",
+    "redsys:yellow_rigid_paper",
+    "redsys:lime_rigid_paper",
+    "redsys:pink_rigid_paper",
+    "redsys:gray_rigid_paper",
+    "redsys:light_gray_rigid_paper",
+    "redsys:cyan_rigid_paper",
+    "redsys:purple_rigid_paper",
+    "redsys:blue_rigid_paper",
+    "redsys:brown_rigid_paper",
+    "redsys:green_rigid_paper",
+    "redsys:red_rigid_paper",
+    "redsys:black_rigid_paper"
   ]
 }
