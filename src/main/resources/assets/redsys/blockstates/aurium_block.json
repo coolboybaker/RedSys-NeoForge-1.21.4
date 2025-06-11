@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "redsys:block/aurium_block" }
+    "powered=false": { "model": "redsys:block/aurium_block" },
+    "powered=true": { "model": "redsys:block/aurium_block_powered"}
   }
 }
