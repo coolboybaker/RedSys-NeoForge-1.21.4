@@ -1,0 +1,21 @@
+
+{
+  "values": [
+    "redsys:white_simple_scheme",
+    "redsys:orange_simple_schemer",
+    "redsys:magenta_simple_scheme",
+    "redsys:light_blue_simple_scheme",
+    "redsys:yellow_simple_scheme",
+    "redsys:lime_simple_scheme",
+    "redsys:pink_simple_scheme",
+    "redsys:gray_simple_scheme",
+    "redsys:light_gray_simple_scheme",
+    "redsys:cyan_simple_scheme",
+    "redsys:purple_simple_scheme",
+    "redsys:blue_simple_scheme",
+    "redsys:brown_simple_scheme",
+    "redsys:green_simple_scheme",
+    "redsys:red_simple_scheme",
+    "redsys:black_simple_scheme"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "empty_scheme_dye",
+  "input": "#redsys:empty_scheme",
+  "material": "minecraft:blue_dye",
+  "result": "redsys:blue_empty_scheme"
+}

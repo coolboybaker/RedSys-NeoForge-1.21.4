@@ -1,0 +1,21 @@
+
+{
+  "values": [
+    "redsys:white_empty_scheme",
+    "redsys:orange_empty_schemer",
+    "redsys:magenta_empty_scheme",
+    "redsys:light_blue_empty_scheme",
+    "redsys:yellow_empty_scheme",
+    "redsys:lime_empty_scheme",
+    "redsys:pink_empty_scheme",
+    "redsys:gray_empty_scheme",
+    "redsys:light_gray_empty_scheme",
+    "redsys:cyan_empty_scheme",
+    "redsys:purple_empty_scheme",
+    "redsys:blue_empty_scheme",
+    "redsys:brown_empty_scheme",
+    "redsys:green_empty_scheme",
+    "redsys:red_empty_scheme",
+    "redsys:black_empty_scheme"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "redsys:silicon_plate",
+    "redsys:green_rigid_paper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "redsys:green_empty_scheme"
+  }
+}
+

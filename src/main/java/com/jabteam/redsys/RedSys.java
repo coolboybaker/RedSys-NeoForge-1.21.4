@@ -83,16 +83,14 @@ public class RedSys  {
                 output.accept(ModItems.AURIUM_FOIL.get());
                 output.accept(ModItems.AURIUM_WIRE.get());
 
-                // Redstone Crystals
-                output.accept(ModItems.ACTIVE_REDSTONE_CRYSTAL.get());
-                output.accept(ModItems.DISACTIVE_REDSTONE_CRYSTAL.get());
-
                 // == Tools ==
                 output.accept(ModItems.HAMMER.get());
                 output.accept(ModItems.PLIERS.get());
 
 
                 // == Other Stuff ==
+                output.accept(ModItems.ACTIVE_REDSTONE_CRYSTAL.get());
+                output.accept(ModItems.DISACTIVE_REDSTONE_CRYSTAL.get());
                 output.accept(ModItems.STICKY_PAPER.get());
 
                 // == Rigid paper ==
@@ -112,6 +110,24 @@ public class RedSys  {
                 output.accept(ModItems.GREEN_RIGID_PAPER.get());
                 output.accept(ModItems.RED_RIGID_PAPER.get());
                 output.accept(ModItems.BLACK_RIGID_PAPER.get());
+
+                // == Schemes ==
+                output.accept(ModItems.WHITE_EMPTY_SCHEME.get());
+                output.accept(ModItems.ORANGE_EMPTY_SCHEME.get());
+                output.accept(ModItems.MAGENTA_EMPTY_SCHEME.get());
+                output.accept(ModItems.LIGHT_BLUE_EMPTY_SCHEME.get());
+                output.accept(ModItems.YELLOW_EMPTY_SCHEME.get());
+                output.accept(ModItems.LIME_EMPTY_SCHEME.get());
+                output.accept(ModItems.PINK_EMPTY_SCHEME.get());
+                output.accept(ModItems.GRAY_EMPTY_SCHEME.get());
+                output.accept(ModItems.LIGHT_GRAY_EMPTY_SCHEME.get());
+                output.accept(ModItems.CYAN_EMPTY_SCHEME.get());
+                output.accept(ModItems.PURPLE_EMPTY_SCHEME.get());
+                output.accept(ModItems.BLUE_EMPTY_SCHEME.get());
+                output.accept(ModItems.BROWN_EMPTY_SCHEME.get());
+                output.accept(ModItems.GREEN_EMPTY_SCHEME.get());
+                output.accept(ModItems.RED_EMPTY_SCHEME.get());
+                output.accept(ModItems.BLACK_EMPTY_SCHEME.get());
 
             }).build());
 

@@ -1,0 +1,21 @@
+
+{
+  "values": [
+    "redsys:white_advanced_scheme",
+    "redsys:orange_advanced_schemer",
+    "redsys:magenta_advanced_scheme",
+    "redsys:light_blue_advanced_scheme",
+    "redsys:yellow_advanced_scheme",
+    "redsys:lime_advanced_scheme",
+    "redsys:pink_advanced_scheme",
+    "redsys:gray_advanced_scheme",
+    "redsys:light_gray_advanced_scheme",
+    "redsys:cyan_advanced_scheme",
+    "redsys:purple_advanced_scheme",
+    "redsys:blue_advanced_scheme",
+    "redsys:brown_advanced_scheme",
+    "redsys:green_advanced_scheme",
+    "redsys:red_advanced_scheme",
+    "redsys:black_advanced_scheme"
+  ]
+}

@@ -56,29 +56,19 @@ public class ModItems {
     public static final DeferredItem<Item> AURIUM_FOIL = ITEMS.registerItem("aurium_foil", Item::new, new Item.Properties());
     public static final DeferredItem<Item> AURIUM_WIRE = ITEMS.registerItem("aurium_wire", Item::new, new Item.Properties());
 
-    // Redstone Crystals
-    public static final DeferredItem<Item> ACTIVE_REDSTONE_CRYSTAL = ITEMS.registerItem("active_redstone_crystal", Item::new, new Item.Properties());
-    public static final DeferredItem<Item> DISACTIVE_REDSTONE_CRYSTAL = ITEMS.registerItem("disactive_redstone_crystal", Item::new, new Item.Properties());
-
-
 
     // == Tools ==
     public static final DeferredItem<ToolBehaviour> HAMMER = ITEMS.registerItem("hammer", ToolBehaviour::new, new Item.Properties());
     public static final DeferredItem<ToolBehaviour> PLIERS = ITEMS.registerItem("pliers", ToolBehaviour::new, new Item.Properties());
 
 
-    // ==== Schemes ====
-    // == Empty ==
-    public static final DeferredItem<SchemeBehaviour> WHITE_EMPTY_SCHEME = ITEMS.registerItem("white_empty_scheme", SchemeBehaviour::new, new Item.Properties());
-    // == Simple ==
-    public static final DeferredItem<SchemeBehaviour> WHITE_SIMPLE_SCHEME = ITEMS.registerItem("white_simple_scheme", SchemeBehaviour::new, new Item.Properties());
-    // == Advances ==
-    public static final DeferredItem<SchemeBehaviour> WHITE_ADVANCED_SCHEME = ITEMS.registerItem("white_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
-
-
-
-    // == Other Stuff ==
+    // == Another Stuff
     public static final DeferredItem<Item> STICKY_PAPER = ITEMS.registerItem("sticky_paper", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> ACTIVE_REDSTONE_CRYSTAL = ITEMS.registerItem("active_redstone_crystal", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> DISACTIVE_REDSTONE_CRYSTAL = ITEMS.registerItem("disactive_redstone_crystal", Item::new, new Item.Properties());
+
+
+    // == Paper ==
     public static final DeferredItem<Item> WHITE_RIGID_PAPER = ITEMS.registerItem("white_rigid_paper", Item::new, new Item.Properties());
     public static final DeferredItem<Item> ORANGE_RIGID_PAPER = ITEMS.registerItem("orange_rigid_paper", Item::new, new Item.Properties());
     public static final DeferredItem<Item> MAGENTA_RIGID_PAPER = ITEMS.registerItem("magenta_rigid_paper", Item::new, new Item.Properties());
@@ -95,6 +85,61 @@ public class ModItems {
     public static final DeferredItem<Item> GREEN_RIGID_PAPER = ITEMS.registerItem("green_rigid_paper", Item::new, new Item.Properties());
     public static final DeferredItem<Item> RED_RIGID_PAPER = ITEMS.registerItem("red_rigid_paper", Item::new, new Item.Properties());
     public static final DeferredItem<Item> BLACK_RIGID_PAPER = ITEMS.registerItem("black_rigid_paper", Item::new, new Item.Properties());
+
+
+    // ==== Schemes ====
+        // == Empty ==
+    public static final DeferredItem<SchemeBehaviour> WHITE_EMPTY_SCHEME = ITEMS.registerItem("white_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> ORANGE_EMPTY_SCHEME = ITEMS.registerItem("orange_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> MAGENTA_EMPTY_SCHEME = ITEMS.registerItem("magenta_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIGHT_BLUE_EMPTY_SCHEME = ITEMS.registerItem("light_blue_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> YELLOW_EMPTY_SCHEME = ITEMS.registerItem("yellow_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIME_EMPTY_SCHEME = ITEMS.registerItem("lime_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> PINK_EMPTY_SCHEME = ITEMS.registerItem("pink_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> GRAY_EMPTY_SCHEME = ITEMS.registerItem("gray_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIGHT_GRAY_EMPTY_SCHEME = ITEMS.registerItem("light_gray_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> CYAN_EMPTY_SCHEME = ITEMS.registerItem("cyan_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> PURPLE_EMPTY_SCHEME = ITEMS.registerItem("purple_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BLUE_EMPTY_SCHEME = ITEMS.registerItem("blue_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BROWN_EMPTY_SCHEME = ITEMS.registerItem("brown_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> GREEN_EMPTY_SCHEME = ITEMS.registerItem("green_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> RED_EMPTY_SCHEME = ITEMS.registerItem("red_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BLACK_EMPTY_SCHEME = ITEMS.registerItem("black_empty_scheme", SchemeBehaviour::new, new Item.Properties());
+        // == Simple ==
+    public static final DeferredItem<SchemeBehaviour> WHITE_SIMPLE_SCHEME = ITEMS.registerItem("white_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> ORANGE_SIMPLE_SCHEME = ITEMS.registerItem("orange_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> MAGENTA_SIMPLE_SCHEME = ITEMS.registerItem("magenta_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIGHT_BLUE_SIMPLE_SCHEME = ITEMS.registerItem("light_blue_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> YELLOW_SIMPLE_SCHEME = ITEMS.registerItem("yellow_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIME_SIMPLE_SCHEME = ITEMS.registerItem("lime_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> PINK_SIMPLE_SCHEME = ITEMS.registerItem("pink_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> GRAY_SIMPLE_SCHEME = ITEMS.registerItem("gray_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIGHT_GRAY_SIMPLE_SCHEME = ITEMS.registerItem("light_gray_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> CYAN_SIMPLE_SCHEME = ITEMS.registerItem("cyan_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> PURPLE_SIMPLE_SCHEME = ITEMS.registerItem("purple_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BLUE_SIMPLE_SCHEME = ITEMS.registerItem("blue_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BROWN_SIMPLE_SCHEME = ITEMS.registerItem("brown_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> GREEN_SIMPLE_SCHEME = ITEMS.registerItem("green_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> RED_SIMPLE_SCHEME = ITEMS.registerItem("red_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BLACK_SIMPLE_SCHEME = ITEMS.registerItem("black_simple_scheme", SchemeBehaviour::new, new Item.Properties());
+        // == Advanced ==
+    public static final DeferredItem<SchemeBehaviour> WHITE_ADVANCED_SCHEME = ITEMS.registerItem("white_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> ORANGE_ADVANCED_SCHEME = ITEMS.registerItem("orange_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> MAGENTA_ADVANCED_SCHEME = ITEMS.registerItem("magenta_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIGHT_BLUE_ADVANCED_SCHEME = ITEMS.registerItem("light_blue_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> YELLOW_ADVANCED_SCHEME = ITEMS.registerItem("yellow_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIME_ADVANCED_SCHEME = ITEMS.registerItem("lime_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> PINK_ADVANCED_SCHEME = ITEMS.registerItem("pink_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> GRAY_ADVANCED_SCHEME = ITEMS.registerItem("gray_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> LIGHT_GRAY_ADVANCED_SCHEME = ITEMS.registerItem("light_gray_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> CYAN_ADVANCED_SCHEME = ITEMS.registerItem("cyan_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> PURPLE_ADVANCED_SCHEME = ITEMS.registerItem("purple_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BLUE_ADVANCED_SCHEME = ITEMS.registerItem("blue_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BROWN_ADVANCED_SCHEME = ITEMS.registerItem("brown_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> GREEN_ADVANCED_SCHEME = ITEMS.registerItem("green_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> RED_ADVANCED_SCHEME = ITEMS.registerItem("red_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+    public static final DeferredItem<SchemeBehaviour> BLACK_ADVANCED_SCHEME = ITEMS.registerItem("black_advanced_scheme", SchemeBehaviour::new, new Item.Properties());
+
 
 
 
