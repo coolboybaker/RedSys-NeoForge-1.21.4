@@ -29,7 +29,7 @@ public class RedSys  {
 
     // Main Constants
     public static final String MOD_ID = "redsys";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
 
     // Create a Tab

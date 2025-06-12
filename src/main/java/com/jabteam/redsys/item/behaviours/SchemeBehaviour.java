@@ -18,8 +18,6 @@ public class SchemeBehaviour extends Item {
     // Save
     public static CompoundTag SchemeDataToNBT(int[][] first_side, int[][] second_side) {
         CompoundTag tag = new CompoundTag();
-
-        // First Side
         ListTag first_side_tag = new ListTag();
         for (int[] row : first_side) {
             ListTag rowTag = new ListTag();
@@ -29,8 +27,6 @@ public class SchemeBehaviour extends Item {
             first_side_tag.add(rowTag);
         }
         tag.put("first_side", first_side_tag);
-
-        // Second side
         ListTag second_side_tag = new ListTag();
         for (int[] row : second_side) {
             ListTag rowTag = new ListTag();
@@ -47,7 +43,6 @@ public class SchemeBehaviour extends Item {
 
     // Load
     public static Pair<int[][], int[][]> NBTtoSchemeData(CompoundTag tag) {
-        // First side
         ListTag first_side_tag = tag.getList("first_side", Tag.TAG_LIST);
         int[][] first_side_data = new int[first_side_tag.size()][];
         for (int i = 0; i < first_side_tag.size(); i++) {
@@ -57,8 +52,6 @@ public class SchemeBehaviour extends Item {
                 first_side_data[i][j] = ((IntTag) rowTag.get(j)).getAsInt();
             }
         }
-
-        // Second side
         ListTag second_side_tag = tag.getList("second_side", Tag.TAG_LIST);
         int[][] second_side_data = new int[second_side_tag.size()][];
         for (int i = 0; i < second_side_tag.size(); i++) {

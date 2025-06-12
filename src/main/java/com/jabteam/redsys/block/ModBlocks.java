@@ -2,6 +2,7 @@ package com.jabteam.redsys.block;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
+import com.jabteam.redsys.block.behaviours.ContainerBlockBehaviour;
 import com.jabteam.redsys.block.behaviours.PossiblePoweredBlock;
 import com.jabteam.redsys.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -56,6 +57,9 @@ public class ModBlocks {
     // == Tables ==
     public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerBlock("industrial_craft_table", BlockBehaviour.Properties.of());
     public static final DeferredBlock<Block> SOLDERING_TABLE = registerBlock("soldering_table", BlockBehaviour.Properties.of());
+
+
+    public static final DeferredBlock<Block> CHECK = registerBlock("check", ContainerBlockBehaviour.Properties.of());
 
 
 
