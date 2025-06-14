@@ -48,7 +48,7 @@ public class ModBlocks {
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
     );
-    public static final DeferredBlock<Block> AURIUM_BLOCK = registerBlock("aurium_block", PossiblePoweredBlock.Properties.of()
+    public static final DeferredBlock<Block> AURIUM_BLOCK = testRegisterBlock("aurium_block", PossiblePoweredBlock.class, PossiblePoweredBlock.Properties.of()
             .strength(5.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
@@ -68,6 +68,16 @@ public class ModBlocks {
         DeferredBlock<Block> currentBlock = BLOCKS.registerSimpleBlock(name, blockProperties);
         DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.registerSimpleBlockItem(name + "_item", currentBlock);
         return currentBlock;
+    }
+
+    public static <T extends Block> DeferredBlock<T> testRegisterBlock(String name, Class<T> blockClass, BlockBehaviour.Properties props) {
+        return BLOCKS.register(name, () -> {
+            try {
+                return blockClass.getDeclaredConstructor(BlockBehaviour.Properties.class).newInstance(props);
+            } catch (Exception e) {
+                throw new RuntimeException("Failed to instantiate block class", e);
+            }
+        });
     }
 
 
