@@ -63,7 +63,12 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SOLDERING_TABLE = registerBlock("soldering_table", BlockBehaviour.Properties.of());
 
 
-    public static final DeferredBlock<Block> CHECK = registerBlock("check", ContainerBlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> CHECK = BLOCKS.register("check", id -> new ContainerBlockBehaviour(BlockBehaviour.Properties.of()
+            .strength(5.0f, 6.0f)
+            .sound(SoundType.METAL)
+            .requiresCorrectToolForDrops()
+            .setId(ResourceKey.create(Registries.BLOCK, id))
+    ));
 
 
 

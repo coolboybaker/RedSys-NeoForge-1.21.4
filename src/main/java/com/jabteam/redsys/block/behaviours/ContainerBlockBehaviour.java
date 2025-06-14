@@ -24,8 +24,12 @@ public class ContainerBlockBehaviour extends Block {
 
     // == On RMB ==
 
-    
 
+    @Override
+    protected void attack(BlockState state, Level level, BlockPos pos, Player player) {
+        super.attack(state, level, pos, player);
+        RedSys.LOGGER.debug("dfsgsdffsdfsd");
+    }
 
     @Override
     protected InteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
