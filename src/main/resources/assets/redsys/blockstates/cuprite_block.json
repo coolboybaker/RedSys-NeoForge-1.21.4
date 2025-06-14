@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "redsys:block/cuprite_block" }
+    "powered=false": { "model": "redsys:block/cuprite_block" },
+    "powered=true": { "model": "redsys:block/cuprite_block_powered"}
   }
 }

@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model": "redsys:block/ferrolin_block" }
+    "powered=false": { "model": "redsys:block/ferrolin_block" },
+    "powered=true": { "model": "redsys:block/ferrolin_block_powered"}
   }
 }

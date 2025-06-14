@@ -29,7 +29,7 @@ public class ModBlocks {
 
     // ==== Blocks =====
     // == Dusts ==
-    public static final DeferredBlock<Block> CUPRITE_DUST = registerBlock("cuprite_dust", PossiblePoweredBlock.Properties.of()
+    public static final DeferredBlock<Block> CUPRITE_DUST = registerMayPoweredBlock("cuprite_dust", BlockBehaviour.Properties.of()
             .strength(5.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
@@ -40,24 +40,20 @@ public class ModBlocks {
             .sound(SoundType.BONE_BLOCK)
             .requiresCorrectToolForDrops()
     );
-    public static final DeferredBlock<Block> CUPRITE_BLOCK = registerBlock("cuprite_block", PossiblePoweredBlock.Properties.of()
+    public static final DeferredBlock<Block> CUPRITE_BLOCK = registerMayPoweredBlock("cuprite_block", BlockBehaviour.Properties.of()
             .strength(5.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
     );
-    public static final DeferredBlock<Block> FERROLIN_BLOCK = registerBlock("ferrolin_block", PossiblePoweredBlock.Properties.of()
+    public static final DeferredBlock<Block> FERROLIN_BLOCK = registerMayPoweredBlock("ferrolin_block", BlockBehaviour.Properties.of()
             .strength(5.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
     );
-    public static final DeferredBlock<Block> AURIUM_BLOCK = BLOCKS.register("aurium_block", id -> new PossiblePoweredBlock(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> AURIUM_BLOCK = registerMayPoweredBlock("aurium_block", BlockBehaviour.Properties.of()
             .strength(5.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
-            .setId(ResourceKey.create(Registries.BLOCK, id))
-    ));
-    public static final DeferredItem<BlockItem> AURIUM_BLOCK_ITEM = ModItems.ITEMS.register("aurium_block", id ->
-            new BlockItem(AURIUM_BLOCK.get(), new Item.Properties().stacksTo(64).setId(ResourceKey.create(Registries.ITEM, id)))
     );
 
     // == Tables ==
@@ -80,6 +76,21 @@ public class ModBlocks {
         DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.registerSimpleBlockItem(name + "_item", currentBlock);
         return currentBlock;
     }
+
+
+    private static DeferredBlock<Block> registerMayPoweredBlock(String name, BlockBehaviour.Properties blockProperties) {
+        DeferredBlock<Block> currentBlock = BLOCKS.register(name, id -> new PossiblePoweredBlock(
+                blockProperties.setId(ResourceKey.create(Registries.BLOCK, id))
+        ));
+        DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.register(name, id ->
+                new BlockItem(currentBlock.get(),
+                new Item.Properties()
+                        .stacksTo(64)
+                        .setId(ResourceKey.create(Registries.ITEM, id)))
+        );
+        return currentBlock;
+    }
+
 
 
     // ==== REGISTER ====
