@@ -1,3 +1,7 @@
 {
-  "parent": "redsys:block/silicon_block"
+  "model": {
+    "type": "minecraft:model",
+
+    "model": "redsys:block/silicon_block"
+  }
 }
