@@ -56,7 +56,9 @@ public class ModBlocks {
             .requiresCorrectToolForDrops()
             .setId(ResourceKey.create(Registries.BLOCK, id))
     ));
-    DeferredItem<BlockItem> AUTIUM_BLOCK_ITEM = ModItems.ITEMS.registerSimpleBlockItem("aurium_block_item", AURIUM_BLOCK);
+    public static final DeferredItem<BlockItem> AURIUM_BLOCK_ITEM = ModItems.ITEMS.register("aurium_block", id ->
+            new BlockItem(AURIUM_BLOCK.get(), new Item.Properties().stacksTo(64).setId(ResourceKey.create(Registries.ITEM, id)))
+    );
 
     // == Tables ==
     public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerBlock("industrial_craft_table", BlockBehaviour.Properties.of());
