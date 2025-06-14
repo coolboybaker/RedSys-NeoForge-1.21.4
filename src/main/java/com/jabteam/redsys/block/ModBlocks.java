@@ -5,6 +5,8 @@ import com.jabteam.redsys.RedSys;
 import com.jabteam.redsys.block.behaviours.ContainerBlockBehaviour;
 import com.jabteam.redsys.block.behaviours.PossiblePoweredBlock;
 import com.jabteam.redsys.item.ModItems;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -48,11 +50,13 @@ public class ModBlocks {
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
     );
-    public static final DeferredBlock<Block> AURIUM_BLOCK = testRegisterBlock("aurium_block", PossiblePoweredBlock.class, PossiblePoweredBlock.Properties.of()
+    public static final DeferredBlock<Block> AURIUM_BLOCK = BLOCKS.register("aurium_block", id -> new PossiblePoweredBlock(BlockBehaviour.Properties.of()
             .strength(5.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
-    );
+            .setId(ResourceKey.create(Registries.BLOCK, id))
+    ));
+    DeferredItem<BlockItem> AUTIUM_BLOCK_ITEM = ModItems.ITEMS.registerSimpleBlockItem("aurium_block_item", AURIUM_BLOCK);
 
     // == Tables ==
     public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerBlock("industrial_craft_table", BlockBehaviour.Properties.of());
@@ -69,17 +73,6 @@ public class ModBlocks {
         DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.registerSimpleBlockItem(name + "_item", currentBlock);
         return currentBlock;
     }
-
-    public static <T extends Block> DeferredBlock<T> testRegisterBlock(String name, Class<T> blockClass, BlockBehaviour.Properties props) {
-        return BLOCKS.register(name, () -> {
-            try {
-                return blockClass.getDeclaredConstructor(BlockBehaviour.Properties.class).newInstance(props);
-            } catch (Exception e) {
-                throw new RuntimeException("Failed to instantiate block class", e);
-            }
-        });
-    }
-
 
 
     // ==== REGISTER ====
