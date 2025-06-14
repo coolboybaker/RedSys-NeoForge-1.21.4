@@ -33,14 +33,22 @@ public class ContainerBlockBehaviour extends Block {
 
     @Override
     protected InteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
-        RedSys.LOGGER.debug("AAAAAAAAAAAAAAAAAAAAAAAAA");
+        RedSys.LOGGER.debug("A1");
+        if (player.isCrouching())
+        {
+            RedSys.LOGGER.debug("A2");
+        }
 
         return super.useItemOn(stack, state, level, pos, player, hand, hitResult);
     }
 
     @Override
     protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
-        RedSys.LOGGER.debug("BBBBBBBBBBBBBB");
+        RedSys.LOGGER.debug("B1");
+        if (player.isCrouching())
+        {
+            RedSys.LOGGER.debug("B2");
+        }
         return super.useWithoutItem(state, level, pos, player, hitResult);
     }
 
