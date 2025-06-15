@@ -2,7 +2,9 @@ package com.jabteam.redsys;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.block.ModBlocks;
+import com.jabteam.redsys.init.ModMenus;
 import com.jabteam.redsys.item.ModItems;
+import net.minecraft.client.gui.screens.MenuScreens;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
@@ -139,6 +141,9 @@ public class RedSys  {
         CREATIVE_MODE_TABS.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModMenus.register(modEventBus);
+
+
 
         // Register (mod)
         NeoForge.EVENT_BUS.register(this);

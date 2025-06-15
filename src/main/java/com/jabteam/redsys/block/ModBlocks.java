@@ -2,9 +2,8 @@ package com.jabteam.redsys.block;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
-import com.jabteam.redsys.block.behaviours.ContainerBlockBehaviour;
+import com.jabteam.redsys.block.behaviours.IndustrialCraftTable.IndustrialCraftTable_BlockBeh;
 import com.jabteam.redsys.block.behaviours.PossiblePoweredBlock;
-import com.jabteam.redsys.block.behaviours.RedstoneAllowDusts;
 import com.jabteam.redsys.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -54,17 +53,27 @@ public class ModBlocks {
             .requiresCorrectToolForDrops()
     );
 
-    // == Tables ==
-    public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerSimpleBlock("industrial_craft_table", BlockBehaviour.Properties.of());
-    public static final DeferredBlock<Block> SOLDERING_TABLE = registerSimpleBlock("soldering_table", BlockBehaviour.Properties.of());
-
-
-    public static final DeferredBlock<Block> CHECK = BLOCKS.register("check", id -> new RedstoneAllowDusts(BlockBehaviour.Properties.of()
-            .strength(5.0f, 6.0f)
+    // == Hand - Tables ==
+    public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = BLOCKS.register("industrial_craft_table", id -> new IndustrialCraftTable_BlockBeh(BlockBehaviour.Properties.of()
+            .strength(15.0f, 6.0f)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
-            .setId(ResourceKey.create(Registries.BLOCK, id))
-    ));
+            .setId(ResourceKey.create(Registries.BLOCK, id))));
+
+    /*
+    public static final DeferredBlock<Block> CUSTOM_WORKBENCH = BLOCKS.register("custom_workbench",
+            () -> new IndustrialBlockbench(BlockBehaviour.Properties.of().strength(2.5F).sound(SoundType.WOOD)));
+
+    public static final DeferredItem<BlockItem> CUSTOM_WORKBENCH_ITEM = ModItems.ITEMS.register("custom_workbench",
+            () -> new BlockItem(CUSTOM_WORKBENCH.get(), new Item.Properties()));
+
+
+
+    public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = registerSimpleBlock("industrial_craft_table", BlockBehaviour.Properties.of());
+    public static final DeferredBlock<Block> SOLDERING_TABLE = registerSimpleBlock("soldering_table", BlockBehaviour.Properties.of());
+*/
+
+
 
 
 
