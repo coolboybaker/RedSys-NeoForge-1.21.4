@@ -2,6 +2,7 @@ package com.jabteam.redsys.block;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.RedSys;
+import com.jabteam.redsys.block.behaviours.ContainerBlockBeh;
 import com.jabteam.redsys.block.behaviours.IndustrialCraftTable.IndustrialCraftTable_BlockBeh;
 import com.jabteam.redsys.block.behaviours.PossiblePoweredBlock;
 import com.jabteam.redsys.item.ModItems;
@@ -54,13 +55,20 @@ public class ModBlocks {
     );
 
     // == Hand - Tables ==
-    public static final DeferredBlock<Block> INDUSTRIAL_CRAFT_TABLE = BLOCKS.register("industrial_craft_table", id -> new IndustrialCraftTable_BlockBeh(BlockBehaviour.Properties.of()
-            .strength(15.0f, 6.0f)
-            .sound(SoundType.METAL)
-            .requiresCorrectToolForDrops()
+
+
+    public static final DeferredBlock<Block> currentBlock = BLOCKS.register("container", id -> new ContainerBlockBeh(BlockBehaviour.Properties.of()
             .setId(ResourceKey.create(Registries.BLOCK, id))));
+    public static final DeferredItem<BlockItem> currentBlockItem = ModItems.ITEMS.register("container", id ->
+            new BlockItem(currentBlock.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .setId(ResourceKey.create(Registries.ITEM, id)))
+    );
 
     /*
+
+
     public static final DeferredBlock<Block> CUSTOM_WORKBENCH = BLOCKS.register("custom_workbench",
             () -> new IndustrialBlockbench(BlockBehaviour.Properties.of().strength(2.5F).sound(SoundType.WOOD)));
 

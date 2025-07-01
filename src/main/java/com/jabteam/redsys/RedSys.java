@@ -2,7 +2,7 @@ package com.jabteam.redsys;
 
 // ===== IMPORT =====
 import com.jabteam.redsys.block.ModBlocks;
-import com.jabteam.redsys.init.ModMenus;
+import com.jabteam.redsys.block.entity.ModBlockEntities;
 import com.jabteam.redsys.item.ModItems;
 import net.minecraft.client.gui.screens.MenuScreens;
 import org.slf4j.Logger;
@@ -141,7 +141,7 @@ public class RedSys  {
         CREATIVE_MODE_TABS.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModMenus.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
 
 
